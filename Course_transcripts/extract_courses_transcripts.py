@@ -51,5 +51,5 @@ def process_english_transcripts(zip_folder_path, output_md_file='english_course_
 
     print(f"✅ Cleaned English-only Markdown notes created: {output_md_file}")
 
-zip_folder = "Course_transcripts/"
+zip_folder = "Course_notes/"
 process_english_transcripts(zip_folder)
